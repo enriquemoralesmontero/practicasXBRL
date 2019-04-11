@@ -1,0 +1,18 @@
+
+EXCEPTION!
+Date: 10/abr/2019
+Hour: 07:18:32
+Loc.: DataBaseManager.openConection()
+Type: SQLException.
+Info: Access denied for user 'admi'@'localhost' (using password: YES)
+
+
+EXCEPTION!
+Date: 11/abr/2019
+Hour: 10:19:52
+Loc.: DataBaseManager.openConection()
+Type: CommunicationsException.
+Info: The database could not be accessed. It may be closed or the port must be controlled...
+Connection refused: connect
+
+

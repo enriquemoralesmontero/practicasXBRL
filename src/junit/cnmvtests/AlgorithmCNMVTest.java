@@ -5,13 +5,23 @@ import org.junit.Test;
 
 import cryptography.Algorithm;
 
+/**
+ * JUnit unit test to check the hashcode generator.
+ * 
+ * @author	Enrique Morales Montero
+ * @author	Javier Mora Gonzálbez (project manager)
+ * @author	Carlos Cano Ladera (Designer, code reviewer)
+ * @since	4/4/2019
+ * @version	8/4/2019
+ */
 public class AlgorithmCNMVTest {
 	
 	@Test
 	public void testGenerateSHA3_256() {
 		
 		/**
-		 * From CNMV web (Telepizza report).
+		 * Telepizza report example extracted from the CNMV web site.
+		 * The URL is just in the url_ixbrl constant.
 		 */
 		final String url_ixbrl = "http://cnmv.es/Portal/Consultas/wuc/DescargaXBRLIPP.ashx?t={13b380b8-dc7a-4c0e-81d3-f80fafd904c8}";
 		
